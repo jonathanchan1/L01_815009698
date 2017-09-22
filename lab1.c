@@ -8,11 +8,11 @@
 void main (void)
 { 
     /*Code from Question 14 in Prelab*/ 
-    int count = 1;
+    int counter1 = 1;
     TRISB = 0;
-    while (count <= 15)
+    while (counter1 <= 15)
     {
-        PORTB = count;
-        count++;
+        PORTB = counter1;
+        counter1++;
     }
 }
