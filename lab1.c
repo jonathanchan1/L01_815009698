@@ -7,5 +7,12 @@
 
 void main (void)
 { 
-    /* Insert code from pre-lab Q14 to change values on PORTB */ 
+    /*Code from Question 14 in Prelab*/ 
+    int count = 1;
+    TRISB = 0;
+    while (count <= 15)
+    {
+        PORTB = count;
+        count++;
+    }
 }
