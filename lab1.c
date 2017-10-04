@@ -14,5 +14,8 @@ void main (void)
     {
         PORTB = counter1;
         counter1++;
+        
+        
+        //changes
     }
 }
