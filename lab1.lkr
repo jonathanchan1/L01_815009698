@@ -1,4 +1,4 @@
-// File: lab1_i.lkr
+// File: lab1.lkr
 // Generic linker script for the PIC18F452 processor
 
 LIBPATH .
