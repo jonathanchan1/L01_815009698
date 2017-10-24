@@ -16,7 +16,6 @@ void main (void)
         counter1++;                 //Increment count
         
         
-        //changes
     }
     _asm
         sleep			//Put PIC to sleep so code stops 
