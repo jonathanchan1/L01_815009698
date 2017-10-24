@@ -8,14 +8,18 @@
 void main (void)
 { 
     /*Code from Question 14 in Prelab*/ 
-    int counter1 = 1;
-    TRISB = 0;
+    int counter1 = 1;               //Declare and initialize variables 
+    TRISB = 0;                      //Set PORTB as an output
     while (counter1 <= 15)
     {
-        PORTB = counter1;
-        counter1++;
+        PORTB = counter1;           //Assign count to PORTB
+        counter1++;                 //Increment count
         
         
         //changes
     }
+    _asm
+        sleep			//Put PIC to sleep so code stops 
+    _endasm
+
 }
